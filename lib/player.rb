@@ -9,9 +9,9 @@ class Player
     @hp = DEFAULT_HP
   end
 
-  def attack(opponent)
-    opponent.receive_damage
-  end
+  # def attack(opponent)
+  #   opponent.receive_damage
+  # end
 
   def receive_damage
     @hp -= 10
